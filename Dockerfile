@@ -1,7 +1,7 @@
 FROM circleci/android:api-27-node8-alpha
 
-RUN locale-gen en_US.UTF-8
-ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
+RUN locale-gen c.UTF-8
+ENV LANG='c.UTF-8' LANGUAGE='c:en' LC_ALL='c.UTF-8'
 
 USER root
 
